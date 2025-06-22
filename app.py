@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Привіт, це моя Flask-програма на Render!'
+    return 'Hello, this is a Flask app on Render!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
